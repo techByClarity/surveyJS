@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+/* Body Styling */
+.childlike-form-body {
+   background-color: #ffefd5; /* Light pastel background */
+   font-family: "Comic Sans MS", "Comic Sans", cursive; /* Childlike font */
+   color: #333;
+   padding: 20px;
+   border-radius: 15px;
+ }
+ 
+ /* Header Styling */
+ .childlike-form-header {
+   font-size: 24px;
+   color: #ff69b4; /* Bright pink for headers */
+   text-align: center;
+   margin-bottom: 10px;
+ }
+ 
+ /* Question Styling */
+ .childlike-form-question {
+   background-color: #fffacd; /* Light yellow for question cards */
+   padding: 15px;
+   margin-bottom: 15px;
+   border: 2px dashed #ffa07a; /* Dashed border for a playful feel */
+   border-radius: 10px;
+ }
+ 
+ .childlike-form-title {
+   font-size: 18px;
+   color: #4682b4; /* Soft blue for titles */
+   margin-bottom: 10px;
+ }
+ 
+ .childlike-form-input {
+   border: 2px solid #7fffd4; /* Aqua border for input fields */
+   border-radius: 5px;
+   padding: 10px;
+   font-size: 16px;
+   width: 100%;
+ }
+ 
+ /* Navigation Buttons */
+ .childlike-form-complete-button,
+ .childlike-form-prev-button,
+ .childlike-form-next-button {
+   background-color: #32cd32; /* Lime green for buttons */
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   font-size: 16px;
+   cursor: pointer;
+   border-radius: 10px;
+   margin: 5px;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .childlike-form-complete-button:hover,
+ .childlike-form-prev-button:hover,
+ .childlike-form-next-button:hover {
+   background-color: #228b22; /* Darker green on hover */
+ }
+ 
