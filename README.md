@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # surveyJS
 Research survey JS features
 =======
